@@ -56,19 +56,23 @@ header img {
 }
 
 h1 {
-  font-size: 3.5em; 
-  margin-bottom: 10px; 
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8),
-               0 0 10px rgba(243, 156, 18, 0.7),
-               0 0 15px rgba(211, 84, 0, 0.5);
-  background: linear-gradient(to right, #FF8C00, #FF4500);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: bold;
-}
+  font-size: 3.5em; /* Large font size */
+  margin-bottom: 10px; /* Spacing below the heading */
+  
+  /* Defined text-shadow for clarity */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), /* Stronger dark shadow */
+               0 0 10px rgba(243, 156, 18, 0.7), /* Soft orange glow */
+               0 0 15px rgba(211, 84, 0, 0.5); /* Soft red glow */
 
+  /* Gradient with more contrast */
+  background: linear-gradient(to right, #FF8C00, #FF4500); /* Bright gradient */
+  -webkit-background-clip: text; /* Clip background to text */
+  -webkit-text-fill-color: transparent; /* Transparent text fill */
+
+  letter-spacing: 1px; /* Moderate spacing for clarity */
+  text-align: center; /* Center alignment */
+  font-weight: bold; /* Bold text for emphasis */
+  }
 .subheading {
   font-size: 1.5em;
   margin-top: 5px;
